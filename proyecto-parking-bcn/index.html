@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/762a7ec47b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="content_up_navbar">
+            <div class="items_contact">
+                <ul class="list_contact">
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <p class="text-bold">Lun a Vie de 8:00h a 21:00h</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <a class="text-bold" href="tel:+34934091822">+34 934 09 18 22</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a class="text-bold" target="_blank" href="https://www.google.com/maps/place/Carrer+de+Cal%C3%A0bria,+66,+08015+Barcelona/@41.37842,2.157495,14z/data=!4m5!3m4!1s0x12a4a2625496bb21:0x8fff20bf00139198!8m2!3d41.3784203!4d2.1574952?hl=es">Carrer de Calàbria, 66 08015 Barcelona</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <nav class="navbar">
+        <div class="content__navbar">
+            <div class="logo">
+                <h1><a href="https://www.aparcamentsbsm.cat/" target="_blank"><span>B:</span>SM <span>Red de aparcamientos de Barcelona</span></a></h1>
+            </div>
+            <div id="filter-open" class="open__filter">
+                <div class="circle__filter">
+                    <i class="fa fa-filter"></i>
+                </div>
+            </div>
+        </div>
+        
+    </nav>
+
+
+    <div class="container__filter">
+        <div class="items__filter">
+            <h2>Filtrar</h2>
+            <ul class="lista_filtraciones">
+                <li class="itemfilter" id="WC"><i class="fas fa-toilet"></i></li>
+                <li class="itemfilter" id="HandicapAccess"><i class="fas fa-wheelchair"></i></li>
+                <li class="itemfilter" id="ElectricCharger"><i class="fas fa-battery-full"></i></li>
+                <li class="itemfilter" id="Consigna"><i class="fas fa-door-closed"></i></li>
+                <li class="itemfilter" id="Carsharing"><i class="fas fa-car"></i></li>
+                <li class="itemfilter" id="appAgilpark"><i class="fas fa-mobile-alt"></i></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="conainer__duo">
+        <div class="container">
+            <div class="lista__items">
+
+                <div class="container_info__parkings">
+
+                    <!-- <div class="items__parkings">
+                        <div class="title__item">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <div class="desplegable__item">
+
+                            <ul>
+                                <li>
+                                    <h2>Informacion</h2>
+                                </li>
+                                <li>
+                                    <div class="icon_circle">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <p>9:00 - 23:00</p>
+                                </li>
+                                <li>
+                                    <div class="icon_circle">
+                                        <i class="fas fa-euro-sign"></i>
+                                    </div>
+                                    <p>Precio <span class="text-bold text-success">33€/H</span></p>
+                                </li>
+                                <li>
+                                    <div class="icon_circle">
+                                        <i class="fas fa-battery-full"></i>
+                                    </div>
+                                    <p>Cargador para coches electricos <i  class=" text-success fas fa-check"></i></p>
+                                </li>
+                                <li>
+                                    <div class="icon_circle">
+                                        <i class="fas fa-toilet"></i>
+                                    </div>
+                                    <p>WC <i class="text-error fas fa-times"></i></p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                     <div class="items__parkings">
+                        <div class="title__item">
+                            <h3>Lorem ipsum dolor sit amet.</h3>
+                            <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <div class="desplegable__item">
+
+                            <ul>
+                                <li>
+                                    <h2>Informacion</h2>
+                                </li>
+                                <li>
+                                    <div class="icon_circle">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <p>9:00 - 23:00</p>
+                                </li>
+                                <li>
+                                    <div class="icon_circle">
+                                        <i class="fas fa-euro-sign"></i>
+                                    </div>
+                                    <p>Precio <span class="text-bold text-success">33€/H</span></p>
+                                </li>
+                                <li>
+                                    <div class="icon_circle">
+                                        <i class="fas fa-battery-full"></i>
+                                    </div>
+                                    <p>Cargador para coches electricos <i  class=" text-success fas fa-check"></i></p>
+                                </li>
+                                <li>
+                                    <div class="icon_circle">
+                                        <i class="fas fa-toilet"></i>
+                                    </div>
+                                    <p>WC <i class="text-error fas fa-times"></i></p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>  -->
+
+                </div>
+                
+            </div>
+            <div id="map"></div>
+        </div>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPBcOXhgNcnApfU2mror_QzR_GFRe7_0Q &callback=initMap"></script> -->
+    
+</body>
+</html>
