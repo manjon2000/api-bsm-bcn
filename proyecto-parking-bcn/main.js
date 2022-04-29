@@ -68,24 +68,8 @@ const datosParking = () => {
 
             initMap(arg);
             imprimirDatos(arrayParking);
-            // $('.items__parkings').on("click",function (e) {
-            //     this.lastElementChild.classList.toggle('open_desplegable')
-            //     valorMostarMapa = $(this).attr("id")
-            //     mostrarParking($(this).attr("id"));
-            // });
-            
-
         }) // Fin de la peticion
 }
-
-// function clickItems(){
-//     $('.items__parkings').on("click",function (e) {
-//         this.lastElementChild.classList.toggle('open_desplegable')
-//         valorMostarMapa = $(this).attr("id")
-//         mostrarParking($(this).attr("id"));
-//     });
-// }
-
 function imprimirDatos(datos) {
     
     var w;
@@ -248,12 +232,8 @@ function initMap(argumento) {
 
 
 function mostrarParking(elemento) {
-
     // console.log(elemento)
     map.setZoom(18);
     map.setCenter(marker[elemento].getPosition());
 
 }
-
-
-
