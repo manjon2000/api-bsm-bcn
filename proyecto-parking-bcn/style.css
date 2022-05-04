@@ -28,6 +28,12 @@ body{
 }
 /* Content  */
 
+@media screen and (max-width: 768px){
+    .content_up_navbar{
+        dispy:none;
+    }
+}
+
 .content_up_navbar{
     width: 100%;
     height: max-content;
